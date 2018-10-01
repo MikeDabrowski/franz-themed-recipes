@@ -1,9 +1,6 @@
 'use strict';
 
-const path = require('path');
-
 module.exports = Franz => {
-  Franz.injectCSS(path.join(__dirname, 'transparent.css'));
   const getMessages = function getMessages() {
     let count = 0;
 

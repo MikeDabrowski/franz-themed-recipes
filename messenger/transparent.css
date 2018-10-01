@@ -1,4 +1,19 @@
+:root {
+	--tr-dark-00: transparent;
+	--tr-dark-10: rgba(0,0,0,0.1);
+	--tr-dark-20: rgba(0,0,0,0.2);
+	--tr-dark-30: rgba(0,0,0,0.3);
+	--tr-dark-50: rgba(0,0,0,0.5);
+	--tr-light-10: rgba(255,255,255,0.1);
+	--tr-light-20: rgba(255,255,255,0.2);
+	--tr-light-30: rgba(255,255,255,0.3);
+	--tr-light-50: rgba(255,255,255,0.5);
+	--tr-light-70: rgba(255,255,255,0.7);
+}
 
+html, body {
+	background: rgba(0,0,0,0.001) !important;
+}
 h2, h3, h4, h5, h6 {
 	color: #eee;
 }
@@ -7,11 +22,6 @@ h2, h3, h4, h5, h6 {
 }
 label, ._1wse {
 	color: #aaa;
-}
-/* convo search box, to field (new message, add people) */
-._2y8y, ._2y8_, ._4jgt, ._5iwm ._58al, ._55r1 {
-	background-color: #2d2d30 !important;
-	color: white !important;
 }
 input._58al {
 	color: white !important;
@@ -24,16 +34,6 @@ input::-webkit-input-placeholder {
 	color: #888 !important;
 }
 
-/* top bars */
-._36ic, ._5742 {
-	background-color: rgba(255, 255, 255, .05) !important;
-	/*border-bottom: none !important;*/
-}
-/* main wrapper */
-._4sp8 {
-	background-color: #1e1e1e !important;
-	color: #eee;
-}
 /* detail wrapper */
 ._1q5- {
 	border-left-color: rgba(255, 255, 255, .1) !important;
@@ -166,11 +166,6 @@ input::-webkit-input-placeholder {
 ._hw2 ._53ij {
 	background-color: #040404 !important;
 }
-/* composer */
-._4rv3, ._4_j4 .chatAttachmentShelf {
-	background-color: #1e1e1e !important;
-	border-top-color: rgba(255, 255, 255, .1) !important;
-}
 .fbNubFlyoutHeader, .fbNubFlyoutBody, .fbNubFlyoutFooter, .fbNubFlyoutAttachments {
 	background-color: #1e1e1e;
 }
@@ -222,40 +217,11 @@ input::-webkit-input-placeholder {
 	border-color: #1e1e1e;
 }
 
-/* convo info, user list */
-._4_j5, ._5l37 {
-	background-color: #282828 !important;
-}
-._4_j5 {
-	border-left: none !important;
-}
 /* convo name, mute label, user in user list, section headings */
 ._2jnv,._2jnx,._2jnz,._2jnx ._30e7 ._5j5f, ._3szq, ._364g, ._1lj0 {
 	color: #ddd !important;
 }
 
-/* convo list */
-._li ._1enh {
-	/* fix convo list hiders */
-	background-color: #1e1e1e;
-}
-/* inactive convo */
-._1ht1 {
-	background-color: #222 !important;
-}
-/* unread convo */
-._1ht1._1ht3 {
-	background-color: #1c2e4a !important;
-	transition: background-color .5s;
-}
-/* active convo */
-._1ht1._1ht2 {
-	background-color: #2d2d30 !important;
-}
-/* convo name */
-._1ht6, ._3q34 {
-	color: #eee !important;
-}
 /* group chat icon dps */
 ._57pl, ._57pm {
 	border-color: transparent !important;
@@ -270,10 +236,6 @@ input::-webkit-input-placeholder {
 }
 ._1ht3 ._1ht7 {
 	color: #0084cc !important;
-}
-/* convo new message */
-._1ht3 ._1htf {
-	color: #ddd !important;
 }
 /* search header */
 ._5t4c, ._225b {
@@ -321,12 +283,6 @@ input::-webkit-input-placeholder {
 ._3mts .uiScrollableArea.contentAfter::after,
 ._5r8l .uiScrollableArea.contentAfter::after {
 	background-image: linear-gradient(transparent, #333);
-}
-/* sticker and games buttons */
-._4rv6, ._4ce_ {
-	-webkit-filter: invert(1);
-	filter: invert(1);
-	opacity: .6 !important;
 }
 /* menu dropdown triangles */
 ._53ik ._53io, ._53il ._53io {
@@ -423,7 +379,7 @@ div._4-i2, div._5a8u {
 
 /* login page */
 ._3v_p, ._3v_o {
-	background-color: #222 !important;
+	background-color: transparent !important;
 }
 ._3v_p ._5hy4, ._3v_o ._5hy4 {
 	color: #eee !important;
@@ -436,6 +392,14 @@ div._4-i2, div._5a8u {
 }
 ._3v_p ._3v_w ._2m_r, ._3v_p ._5s4n ._2m_r {
 	background-color: #0066aa !important;
+}
+._3v_p ._3v_v {
+	padding-left: 40px;
+	background: var(--tr-dark-50);
+	border-radius: 8px;
+}
+._3v_p .page {
+	background: transparent;
 }
 
 /* call page */
@@ -454,4 +418,98 @@ div._4-i2, div._5a8u {
 ._4g0h, ._3xcx, ._225b, ._3q35, ._2r2v, ._2n1t, ._1n-e, ._3eus, ._2wy4, ._1u5d ._1u5k, ._3ggt,
 ._17cj ._2ze8, ._17cj ._cen, ._5sr7, ._4nw0 {
 	color: rgba(255, 255, 255, .6) !important;
+}
+
+/* TRANSPARENTIZE */
+/* main wrapper */
+._4sp8 {
+	background-color:  var(--tr-dark-00) !important;
+	color: #eee;
+}
+._li ._1enh /* left convo list*/ {
+	background: var(--tr-dark-20);
+}
+/* unread convo */
+._1ht1._1ht3 {
+	background-color: var(--tr-dark-50) !important;
+	transition: background-color .5s;
+}
+/* convo name */
+._1ht6, ._3q34 {
+	color: #dddddd !important;
+}
+/* convo new message */
+._1htf {
+	color: #fff !important;
+}
+/* incactive convo */
+li._5l-3._1ht1:not(._1ht2) {
+	background-color: transparent;
+}
+/* active convo */
+li._5l-3._1ht2 {
+	background-color: var(--tr-dark-10);
+}
+/* convo search box, to field (new message, add people) */
+._2y8y, ._2y8_, ._4jgt, ._5iwm ._58al, ._55r1 {
+	background-color: var(--tr-dark-30) !important;
+	color: white !important;
+}
+._2y8y, ._2y8_::-webkit-input-placeholder,
+._4jgt::-webkit-input-placeholder,
+._5iwm ._58al::-webkit-input-placeholder,
+._55r1::-webkit-input-placeholder {
+	color: var(--tr-light-70) !important;
+}
+/* convo info, user list */
+._4_j5, ._5l37 {
+	background-color: var(--tr-dark-20);
+}
+
+/* Calls */
+._497p span._3oh-{
+	background: var(--tr-dark-50);
+	padding: 0 8px;
+	border-radius: 8px;
+}
+
+/* composer input */
+._4rv3, ._4_j4 .chatAttachmentShelf {
+	background-color: var(--tr-dark-20) !important;
+	border-top-color: rgba(255, 255, 255, .1) !important;
+}
+._4rv3 ._1p1v {
+	-webkit-text-fill-color: white !important;
+}
+/* sticker and games buttons */
+._4rv6, ._4ce_,
+._4rv4 li > a,
+._4rv4 ._4rv5._39bk._30yy,
+._4rv4 a._4q61._5f0v._509v._30yy._260u {
+	-webkit-filter: invert(1);
+	filter: invert(1) brightness(5);
+	opacity: 1 !important;
+}
+/* header icons */
+._2oc8, ._4kzu {
+	filter: brightness(0) invert(1);
+}
+/* top bars */
+._36ic, /* convo list header (cog, new convo btns) */
+._5742 {
+}
+/* app name (messenger) */
+._36ic ._1tqi {
+	color: white;
+}
+/* contact name (convo name)*/
+._673w {
+	background: var(--tr-dark-20);
+}
+/* timestamp between msgs */
+time {
+	border-radius: 16px;
+	background: var(--tr-dark-50);
+	padding: 0 8px;
+	color: white;
 }

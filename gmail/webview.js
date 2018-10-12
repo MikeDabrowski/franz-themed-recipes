@@ -1,12 +1,19 @@
 'use strict';
 
 const path = require('path');
-
+document.styleSheets[0].addRule('.aKB', 'display:none;',1);
 module.exports = Franz => {
   Franz.injectCSS(path.join(__dirname, 'transparent.css'));
   const getMessages = function getMessages() {
     let count = 0;
 
+      // Remove ads
+      /*
+      const adsCont = document.querySelector('.aKB:not(.afn)');
+      if (adsCont) {
+        adsCont.parentNode.removeChild(adsCont);
+      }
+      */
     // Each test is done in order of least accurate (but most robust)
     // -> most accurate (but least robust)
     // for reliability of at least getting a result

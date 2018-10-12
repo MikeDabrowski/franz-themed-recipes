@@ -54,7 +54,7 @@ header#client_header {
 	height: 60px !important;
 	border-bottom: 1px solid rgba(255,255,255,0.2)
 }
-button#im_title, #msg_input, #msg_input p {
+button#im_title, #msg_input, #msg_input p,div#msg_input p {
 	color: white !important;
 }
 #col_messages, #footer, .channel_header,

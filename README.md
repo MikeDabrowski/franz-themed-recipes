@@ -24,6 +24,17 @@
 7. Start Franz
 8. If you can't see transparent apps, try View > ReloadService (Ctrl+R on Windows) or create issue here
 
+### Updating
+
+##### If you have git
+1. Go to Franz's recipes directory (on Windows it's `%appdata%\Franz\recipes`)
+2. Open cmd/powershell/terminal in this folder (on Windows hold shift and right click on this dir and choose open cmd/powershell here)
+3. Type `git pull`
+4. Reload Franz or restart it
+
+##### If you don't have git installed
+Just follow installation instructions.
+
 ### Contributing
 
 Theme name has to match Franz theme. At this moment available themes are:

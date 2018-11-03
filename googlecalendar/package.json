@@ -2,9 +2,9 @@
     "id": "googlecalendar",
     "name": "Google Calendar",
     "version": "1.0.0",
-    "description": "Google Calendar",
+    "description": "Themed Google Calendar",
     "main": "index.js",
-    "author": "Rico Herwig <rherwig4711@gmail.com>",
+    "author": "MikeDabrowski <mike2060@gmail.com>",
     "license": "MIT",
     "config": {
         "serviceURL": "https://calendar.google.com/calendar",

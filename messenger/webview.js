@@ -1,9 +1,13 @@
 'use strict';
 
+const fs = require('fs');
 const path = require('path');
 
 module.exports = Franz => {
-  Franz.injectCSS(path.join(__dirname, 'transparent.css'));
+  const cssFiles = fs.readdirSync(__dirname).filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')));
+  cssFiles.forEach((fileName) => {
+    Franz.injectCSS(path.join(__dirname, fileName));
+  });
   const getMessages = function getMessages() {
     let count = document.querySelectorAll('._5fx8:not(._569x),._1ht3:not(._569x)').length;
     const messageRequestsElement = document.querySelector('._5nxf');

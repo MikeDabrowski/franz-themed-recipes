@@ -2,9 +2,9 @@
   "id": "hangoutschat",
   "name": "Hangouts Chat",
   "version": "1.0.0",
-  "description": "Hangouts Chat",
+  "description": "Themed Hangouts Chat",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Mike Dabrowski <mike2060@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://chat.google.com",

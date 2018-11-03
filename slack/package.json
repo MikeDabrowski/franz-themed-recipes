@@ -2,9 +2,9 @@
   "id": "slack",
   "name": "Slack",
   "version": "1.0.8",
-  "description": "Slack",
+  "description": "Themed Slack",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Mike Dabrowski <mike2060@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://{teamId}.slack.com",

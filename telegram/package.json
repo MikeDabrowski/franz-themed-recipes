@@ -2,9 +2,9 @@
   "id": "telegram",
   "name": "Telegram",
   "version": "1.0.5",
-  "description": "Telegram",
+  "description": "Themed Telegram",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Mike Dabrowski <mike2060@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://web.telegram.org",

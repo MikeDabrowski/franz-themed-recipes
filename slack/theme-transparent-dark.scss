@@ -1,0 +1,67 @@
+html {
+  background: none !important;
+  height: 100%;
+}
+
+body.theme-transparent-dark {
+  background: transparent !important;
+
+  .client_channels_list_container {
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
+  .p-channel_sidebar, .channel_header, client_body::before, div#footer, body:not(.loading) #team_menu.active, body:not(.loading) #team_menu:hover {
+    background: transparent !important;
+  }
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+    background: transparent !important;
+  }
+  .c-message__body, .c-message_attachment__body {
+    color: white !important;
+  }
+  .c-message--light .c-message__sender .c-message__sender_link {
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background: rgba(255, 255, 255, 0.3) !important;
+  }
+  .texty_legacy.texty_single_line_input {
+    background: transparent;
+  }
+  .texty_legacy .ql-placeholder {
+
+    color: #0093ff !important;
+    filter: none !important;
+    opacity: 1 !important;
+  }
+  .c-virtual_list__item a,
+  .c-virtual_list__item a:link,
+  .c-virtual_list__item a:visited {
+    color: #0093ff !important;
+  }
+  #msg_input, button#primary_file_button {
+    background: rgba(255, 255, 255, .1);
+  }
+  .c-message_list__day_divider hr {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .c-message_list__day_divider__label__pill {
+    background: rgba(255, 255, 255, .2);
+    color: white;
+  }
+  #client_body:not(.onboarding):not(.feature_global_nav_layout):before,
+  .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before,
+  .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before {
+    background: transparent !important;
+  }
+  header#client_header {
+    height: 60px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+  }
+  button#im_title, #msg_input, #msg_input p, div#msg_input p {
+    color: white !important;
+  }
+  #col_messages, #footer, .channel_header,
+  #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+    box-shadow: none !important;
+  }
+}

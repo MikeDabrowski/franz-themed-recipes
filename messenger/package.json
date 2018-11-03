@@ -2,9 +2,9 @@
   "id": "messenger",
   "name": "Messenger",
   "version": "1.0.6",
-  "description": "Facebook Messenger",
+  "description": "Themed Facebook Messenger",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Mike Dabrowski <mike2060@gmail.com>",
   "license": "MIT",
   "config": {
     "serviceURL": "https://messenger.com",

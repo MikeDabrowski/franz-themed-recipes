@@ -1,9 +1,16 @@
 'use strict';
 
+const fs = require('fs');
 const path = require('path');
+
+// hide adds
 document.styleSheets[0].addRule('.aKB', 'display:none;',1);
+
 module.exports = Franz => {
-  Franz.injectCSS(path.join(__dirname, 'transparent.css'));
+  const cssFiles = fs.readdirSync(__dirname).filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')));
+  cssFiles.forEach((fileName) => {
+    Franz.injectCSS(path.join(__dirname, fileName));
+  });
   const getMessages = function getMessages() {
     let count = 0;
 

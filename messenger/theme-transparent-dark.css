@@ -1,0 +1,382 @@
+:root {
+  --tr-dark-00: transparent;
+  --tr-dark-10: rgba(0, 0, 0, 0.1);
+  --tr-dark-20: rgba(0, 0, 0, 0.2);
+  --tr-dark-30: rgba(0, 0, 0, 0.3);
+  --tr-dark-50: rgba(0, 0, 0, 0.5);
+  --tr-light-10: rgba(255, 255, 255, 0.1);
+  --tr-light-20: rgba(255, 255, 255, 0.2);
+  --tr-light-30: rgba(255, 255, 255, 0.3);
+  --tr-light-50: rgba(255, 255, 255, 0.5);
+  --tr-light-70: rgba(255, 255, 255, 0.7); }
+
+html {
+  background: none !important; }
+
+body.theme-transparent-dark {
+  /* I hate placeholder styling */
+  /* detail wrapper */
+  /* receipient/convo name in top bar */
+  /* thread search */
+  /* event plan banner */
+  /* XUIButton */
+  /* chat area stuff */
+  /* beginning of convo info */
+  /* message */
+  /* own message */
+  /* emoji-only messages */
+  /* reactions */
+  /* link info, platform attachment, game leaderboard */
+  /* group polling */
+  /* polling message dialog */
+  /* create event plan button */
+  /* event share attachment */
+  /* carousel arrow */
+  /* audio message */
+  /* media (e.g. GIFs) source */
+  /* delete bubble button */
+  /* make static stickers slightly more readable */
+  /*
+  ._2poz[style*="sticker"] {
+      background-color: #333;
+      border-radius: 5px;
+  }
+  */
+  /* messenger thumb up stickers */
+  /* facebook-removed messages et al */
+  /* code bubbles */
+  /* Messenger icon */
+  /* Facebook icon */
+  /* Messenger/Facebook icon - Draw dark grey border over white border */
+  /* Messenger/Facebook icons within the main wrapper */
+  /* convo name, mute label, user in user list, section headings */
+  /* group chat icon dps */
+  /* message request from */
+  /* timestamp */
+  /* search header */
+  /* search keyboard selection */
+  /* people list self online status */
+  /* people list section tabs */
+  /* those menus and composer dialogs though */
+  /* more stickers */
+  /* menu dropdown triangles */
+  /* delivery indicators */
+  /* misc icons */
+  /* messenger dialogs, very important */
+  /* chat emoji picker: selected emoji */
+  /* reactions list dialog: emoji list */
+  /* report issue dialog, even more so */
+  /* dialog head */
+  /* dialog heading, checkbox label */
+  /* dialog body, footer */
+  /* event plan dialog: input labels, responses */
+  /* image info */
+  /* what about normal facebook dialogs? */
+  /* login page */
+  /* call page */
+  /* stuff that should be grey */
+  /* TRANSPARENTIZE */
+  /* main wrapper */
+  /* unread convo */
+  /* convo name */
+  /* convo new message */
+  /* incactive convo */
+  /* active convo */
+  /* convo search box, to field (new message, add people) */
+  /* convo info, user list */
+  /* Calls */
+  /* composer input */
+  /* sticker and games buttons */
+  /* header icons */
+  /* top bars */
+  /* app name (messenger) */
+  /* contact name (convo name)*/
+  /* timestamp between msgs */ }
+  body.theme-transparent-dark {
+    background: rgba(0, 0, 0, 0.001) !important; }
+  body.theme-transparent-dark h2, body.theme-transparent-dark h3, body.theme-transparent-dark h4, body.theme-transparent-dark h5, body.theme-transparent-dark h6 {
+    color: #eee; }
+  body.theme-transparent-dark ._5743, body.theme-transparent-dark ._4rph ._4rpj {
+    color: white !important; }
+  body.theme-transparent-dark label, body.theme-transparent-dark ._1wse {
+    color: #aaa; }
+  body.theme-transparent-dark input._58al {
+    color: white !important; }
+  body.theme-transparent-dark input::-moz-placeholder {
+    color: #ccc !important; }
+  body.theme-transparent-dark input::-webkit-input-placeholder {
+    color: #888 !important; }
+  body.theme-transparent-dark ._1q5- {
+    border-left-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-transparent-dark ._17w2 {
+    color: white !important; }
+  body.theme-transparent-dark ._33p7 {
+    background-color: rgba(30, 30, 30, 0.9) !important; }
+  body.theme-transparent-dark ._3nta {
+    background-color: #2d2d30 !important; }
+  body.theme-transparent-dark ._3nta:hover {
+    background-color: #222 !important; }
+  body.theme-transparent-dark ._2n3u {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-transparent-dark ._517h {
+    background-color: #222 !important;
+    color: #ccc !important; }
+  body.theme-transparent-dark ._2615:not(:hover) {
+    background-color: #333 !important; }
+  body.theme-transparent-dark ._llq, body.theme-transparent-dark ._36zg, body.theme-transparent-dark ._1n-e._36zg {
+    color: #eee !important; }
+  body.theme-transparent-dark ._29_7 ._hh7, body.theme-transparent-dark ._29_7._-5k ._hh7 {
+    background-color: #2d2d30; }
+  body.theme-transparent-dark ._29_7 ._hh7 {
+    color: #ddd; }
+  body.theme-transparent-dark ._hh7 > ._aok > ._3oh- > a {
+    color: inherit !important; }
+  body.theme-transparent-dark ._hh7._aol {
+    border-color: transparent !important; }
+  body.theme-transparent-dark ._29_7 ._hh7:active, body.theme-transparent-dark ._-5k ._hh7, body.theme-transparent-dark ._29_7 ._hh7 > span > a:hover {
+    background-color: #333; }
+  body.theme-transparent-dark ._o46._nd_ ._hh7 {
+    background-color: #004488; }
+  body.theme-transparent-dark ._o46._nd_ ._hh7:active, body.theme-transparent-dark ._o46._nd_._-5k ._hh7 {
+    background-color: #003377; }
+  body.theme-transparent-dark ._hh7._2f5r, body.theme-transparent-dark ._-5k ._hh7._2f5r {
+    background-color: transparent !important; }
+  body.theme-transparent-dark ._aou {
+    background-color: #333 !important; }
+  body.theme-transparent-dark ._4kf5 {
+    background-color: transparent !important; }
+  body.theme-transparent-dark ._5i_d, body.theme-transparent-dark ._5ssp, body.theme-transparent-dark ._4ea2 {
+    border-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-transparent-dark .__6k, body.theme-transparent-dark .__6l, body.theme-transparent-dark ._5sr2 {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._4u4_ > h3, body.theme-transparent-dark ._4u4- {
+    color: #eee !important; }
+  body.theme-transparent-dark ._3b4u {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._3b4h {
+    background-color: #2d2d30 !important; }
+  body.theme-transparent-dark ._1mr_, body.theme-transparent-dark ._1mq- {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._3erg ._hh7 a._2q1l {
+    background-color: #2d2d30 !important;
+    border-color: #222 !important; }
+  body.theme-transparent-dark ._618l {
+    color: rgba(255, 255, 255, 0.75) !important; }
+  body.theme-transparent-dark ._618n {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-transparent-dark ._5x5z {
+    background-color: #1e1e1e !important;
+    border-color: #444 !important; }
+  body.theme-transparent-dark ._29_7 ._3czg ._2e-7 ._2e-1, body.theme-transparent-dark ._29_7 ._3czg ._2e-7 ._2e-2 {
+    background-color: #444 !important; }
+  body.theme-transparent-dark ._454y ._1mi- {
+    background-color: #2d2d30 !important; }
+  body.theme-transparent-dark ._454y ._1mj0 {
+    background-color: #666 !important; }
+  body.theme-transparent-dark ._454y ._1mj1 {
+    border-color: #666 !important; }
+  body.theme-transparent-dark ._2f5n {
+    background-color: #2d2d30 !important; }
+  body.theme-transparent-dark ._2f5n ._29ey {
+    color: #ccc !important; }
+  body.theme-transparent-dark ._hw2 ._53ij {
+    background-color: #040404 !important; }
+  body.theme-transparent-dark .fbNubFlyoutHeader, body.theme-transparent-dark .fbNubFlyoutBody, body.theme-transparent-dark .fbNubFlyoutFooter, body.theme-transparent-dark .fbNubFlyoutAttachments {
+    background-color: #1e1e1e; }
+  body.theme-transparent-dark ._576q {
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%); }
+  body.theme-transparent-dark ._4sp8 .uiBoxYellow {
+    background-color: #662; }
+  body.theme-transparent-dark ._wu0 {
+    background-color: #181818 !important;
+    border-color: #282828 !important; }
+  body.theme-transparent-dark ._2poo {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #0084ff; }
+  body.theme-transparent-dark ._2pop {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #929292; }
+  body.theme-transparent-dark ._2pon:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 50%;
+    border: 2px solid #282828; }
+  body.theme-transparent-dark ._4sp8 ._2pon:after {
+    border-color: #1e1e1e; }
+  body.theme-transparent-dark ._2jnv, body.theme-transparent-dark ._2jnx, body.theme-transparent-dark ._2jnz, body.theme-transparent-dark ._2jnx ._30e7 ._5j5f, body.theme-transparent-dark ._3szq, body.theme-transparent-dark ._364g, body.theme-transparent-dark ._1lj0 {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._57pl, body.theme-transparent-dark ._57pm {
+    border-color: transparent !important; }
+  body.theme-transparent-dark ._2kt ._5nxb {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._1ht7.timestamp {
+    color: #999; }
+  body.theme-transparent-dark ._1ht3 ._1ht7 {
+    color: #0084cc !important; }
+  body.theme-transparent-dark ._5t4c, body.theme-transparent-dark ._225b {
+    background-color: #1e1e1e !important; }
+  body.theme-transparent-dark ._1k1p {
+    background-color: #1e1e1e !important; }
+  body.theme-transparent-dark ._1u5d {
+    background-color: transparent !important; }
+  body.theme-transparent-dark ._2lp- {
+    border-color: #0066aa !important; }
+  body.theme-transparent-dark ._48uj {
+    background-color: #0066aa !important; }
+  body.theme-transparent-dark ._53ij, body.theme-transparent-dark ._54nf, body.theme-transparent-dark ._293j, body.theme-transparent-dark ._4lh2 {
+    background-color: #333 !important; }
+  body.theme-transparent-dark ._5r8a._5r8b, body.theme-transparent-dark ._1uwz, body.theme-transparent-dark ._3rh0 {
+    background-color: #222 !important; }
+  body.theme-transparent-dark ._2i-c ._54nf ._54nh, body.theme-transparent-dark ._4lh2, body.theme-transparent-dark ._5jn1 {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._4lha ._4lhc, body.theme-transparent-dark ._4lh7 {
+    color: #aaa !important; }
+  body.theme-transparent-dark ._2i-c ._54ne ._54nh, body.theme-transparent-dark ._2i-c ._54ne ._54nc, body.theme-transparent-dark ._2i-c ._54ne {
+    background-color: #0066aa !important; }
+  body.theme-transparent-dark ._5r8e, body.theme-transparent-dark ._5r86, body.theme-transparent-dark ._37wu, body.theme-transparent-dark ._37wv {
+    border-color: #222; }
+  body.theme-transparent-dark ._eb3::before {
+    background-color: #222; }
+  body.theme-transparent-dark ._3mts .uiScrollableArea.contentAfter::after,
+  body.theme-transparent-dark ._5r8l .uiScrollableArea.contentAfter::after {
+    background-image: linear-gradient(transparent, #333); }
+  body.theme-transparent-dark ._53ik ._53io, body.theme-transparent-dark ._53il ._53io {
+    -webkit-filter: brightness(20%);
+    filter: brightness(20%); }
+  body.theme-transparent-dark ._3i_m ._9ah ._57e_ {
+    color: #1e1e1e !important; }
+  body.theme-transparent-dark ._fl3:not(._20nb), body.theme-transparent-dark ._4-0h, body.theme-transparent-dark ._57gs, body.theme-transparent-dark label > input + span::before {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%); }
+  body.theme-transparent-dark ._5iwm ._58ak::before, body.theme-transparent-dark ._23ct, body.theme-transparent-dark ._2xme,
+  body.theme-transparent-dark :not(._3no3) > ._uwa, body.theme-transparent-dark ._5jdr ._5jds,
+  body.theme-transparent-dark ._5nxe .img, body.theme-transparent-dark ._2t5t {
+    -webkit-filter: invert(1);
+    filter: invert(1); }
+  body.theme-transparent-dark ._59s7 {
+    background-color: #222;
+    color: #eee; }
+  body.theme-transparent-dark ._4-hz, body.theme-transparent-dark ._4eby, body.theme-transparent-dark ._4jgp ._4jgu, body.theme-transparent-dark ._12zw {
+    background-color: #222 !important; }
+  body.theme-transparent-dark ._374c, body.theme-transparent-dark ._4jgs, body.theme-transparent-dark ._2c9i ._19jt, body.theme-transparent-dark ._51l0 .uiInputLabel .__rm + .uiInputLabelLabel,
+  body.theme-transparent-dark ._5raa, body.theme-transparent-dark ._5rab, body.theme-transparent-dark ._4nv_ {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._-lj ._4rlt {
+    background-color: #333 !important;
+    border-color: #666 !important; }
+  body.theme-transparent-dark ._koh {
+    border-bottom-color: #333 !important; }
+  body.theme-transparent-dark ._4-i0 {
+    background-color: #333 !important;
+    border-bottom-color: #2e2e2e; }
+  body.theme-transparent-dark ._4-i0 ._52c9, body.theme-transparent-dark ._5r5c ._5rq_, body.theme-transparent-dark ._uvt {
+    color: #ddd !important; }
+  body.theme-transparent-dark div._4-i2, body.theme-transparent-dark div._5a8u {
+    background-color: #222 !important;
+    color: #eee; }
+  body.theme-transparent-dark ._4t2a {
+    background-color: #222; }
+  body.theme-transparent-dark ._4-u8 {
+    background-color: transparent !important; }
+  body.theme-transparent-dark ._4xd5, body.theme-transparent-dark ._38wl, body.theme-transparent-dark ._4x79 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-transparent-dark ._2zn2 {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  body.theme-transparent-dark ._2zn6 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-transparent-dark ._t {
+    background-color: #222 !important;
+    color: #eee; }
+  body.theme-transparent-dark .fcb {
+    color: white !important; }
+  body.theme-transparent-dark ._c24 {
+    color: #ccc !important; }
+  body.theme-transparent-dark .uiBoxGray {
+    background-color: #333 !important;
+    border-color: #2e2e2e; }
+  body.theme-transparent-dark #captcha .captcha_refresh {
+    color: lightgrey !important; }
+  body.theme-transparent-dark ._3v_p, body.theme-transparent-dark ._3v_o {
+    background-color: transparent !important; }
+  body.theme-transparent-dark ._3v_p ._5hy4, body.theme-transparent-dark ._3v_o ._5hy4 {
+    color: #eee !important; }
+  body.theme-transparent-dark ._3v_p ._43di, body.theme-transparent-dark ._3v_o ._43di, body.theme-transparent-dark ._3v_p ._3403, body.theme-transparent-dark ._3v_o ._3403 {
+    color: #ddd !important; }
+  body.theme-transparent-dark ._3v_p ._210j ._43dj .uiInputLabelLabel, body.theme-transparent-dark ._59h8, body.theme-transparent-dark ._3v_p ._59h7 ._5hy9 {
+    color: #aaa !important; }
+  body.theme-transparent-dark ._3v_p ._3v_w ._2m_r, body.theme-transparent-dark ._3v_p ._5s4n ._2m_r {
+    background-color: #0066aa !important; }
+  body.theme-transparent-dark ._3v_p ._3v_v {
+    padding-left: 40px;
+    background: var(--tr-dark-50);
+    border-radius: 8px; }
+  body.theme-transparent-dark ._3v_p .page {
+    background: transparent; }
+  body.theme-transparent-dark ._17cj, body.theme-transparent-dark ._17cj ._3jne, body.theme-transparent-dark ._38jq {
+    background-color: #1e1e1e !important; }
+  body.theme-transparent-dark ._17cj ._3jnu, body.theme-transparent-dark ._17cj ._3jnv, body.theme-transparent-dark ._fjq {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  body.theme-transparent-dark ._17cj ._4j_k, body.theme-transparent-dark ._fjp {
+    color: #eee !important; }
+  body.theme-transparent-dark ._ih3, body.theme-transparent-dark ._3tl0, body.theme-transparent-dark ._3tl1 ._10w4, body.theme-transparent-dark ._497p, body.theme-transparent-dark ._3x6v, body.theme-transparent-dark ._2v6o, body.theme-transparent-dark ._3tky, body.theme-transparent-dark ._5rh4, body.theme-transparent-dark ._5qsj, body.theme-transparent-dark ._jf4 ._jf3, body.theme-transparent-dark ._5i_d .__6m, body.theme-transparent-dark ._2y8z,
+  body.theme-transparent-dark ._4g0h, body.theme-transparent-dark ._3xcx, body.theme-transparent-dark ._225b, body.theme-transparent-dark ._3q35, body.theme-transparent-dark ._2r2v, body.theme-transparent-dark ._2n1t, body.theme-transparent-dark ._1n-e, body.theme-transparent-dark ._3eus, body.theme-transparent-dark ._2wy4, body.theme-transparent-dark ._1u5d ._1u5k, body.theme-transparent-dark ._3ggt,
+  body.theme-transparent-dark ._17cj ._2ze8, body.theme-transparent-dark ._17cj ._cen, body.theme-transparent-dark ._5sr7, body.theme-transparent-dark ._4nw0 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-transparent-dark ._4sp8 {
+    background-color: var(--tr-dark-00) !important;
+    color: #eee; }
+  body.theme-transparent-dark ._li ._1enh {
+    background: var(--tr-dark-20); }
+  body.theme-transparent-dark ._1ht1._1ht3 {
+    background-color: var(--tr-dark-50) !important;
+    transition: background-color .5s; }
+  body.theme-transparent-dark ._1ht6, body.theme-transparent-dark ._3q34 {
+    color: #dddddd !important; }
+  body.theme-transparent-dark ._1htf {
+    color: #fff !important; }
+  body.theme-transparent-dark li._5l-3._1ht1:not(._1ht2) {
+    background-color: transparent; }
+  body.theme-transparent-dark li._5l-3._1ht2 {
+    background-color: var(--tr-dark-10); }
+  body.theme-transparent-dark ._2y8y, body.theme-transparent-dark ._2y8_, body.theme-transparent-dark ._4jgt, body.theme-transparent-dark ._5iwm ._58al, body.theme-transparent-dark ._55r1 {
+    background-color: var(--tr-dark-30) !important;
+    color: white !important; }
+  body.theme-transparent-dark ._2y8y, body.theme-transparent-dark ._2y8_::-webkit-input-placeholder,
+  body.theme-transparent-dark ._4jgt::-webkit-input-placeholder,
+  body.theme-transparent-dark ._5iwm ._58al::-webkit-input-placeholder,
+  body.theme-transparent-dark ._55r1::-webkit-input-placeholder {
+    color: var(--tr-light-70) !important; }
+  body.theme-transparent-dark ._4_j5, body.theme-transparent-dark ._5l37 {
+    background-color: var(--tr-dark-20); }
+  body.theme-transparent-dark ._497p span._3oh- {
+    background: var(--tr-dark-50);
+    padding: 0 8px;
+    border-radius: 8px; }
+  body.theme-transparent-dark ._4rv3, body.theme-transparent-dark ._4_j4 .chatAttachmentShelf {
+    background-color: var(--tr-dark-20) !important;
+    border-top-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-transparent-dark ._4rv3 ._1p1v {
+    -webkit-text-fill-color: white !important; }
+  body.theme-transparent-dark ._4rv6, body.theme-transparent-dark ._4ce_,
+  body.theme-transparent-dark ._4rv4 li > a,
+  body.theme-transparent-dark ._4rv4 ._4rv5._39bk._30yy,
+  body.theme-transparent-dark ._4rv4 a._4q61._5f0v._509v._30yy._260u {
+    -webkit-filter: invert(1);
+    filter: invert(1) brightness(5);
+    opacity: 1 !important; }
+  body.theme-transparent-dark ._2oc8, body.theme-transparent-dark ._4kzu {
+    filter: brightness(0) invert(1); }
+  body.theme-transparent-dark ._36ic ._1tqi {
+    color: white; }
+  body.theme-transparent-dark ._673w {
+    background: var(--tr-dark-20); }
+  body.theme-transparent-dark time {
+    border-radius: 16px;
+    background: var(--tr-dark-50);
+    padding: 0 8px;
+    color: white; }

@@ -1,10 +1,15 @@
 'use strict';
 
+const fs = require('fs');
 const path = require('path');
 
 module.exports = Franz => {
-  Franz.injectCSS(path.join(__dirname, 'calendar.css'));
-  Franz.injectCSS(path.join(__dirname, 'transparent.css'));
+  Franz.injectCSS(path.join(__dirname, 'general.css'));
+  const cssFiles = fs.readdirSync(__dirname).filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')));
+  cssFiles.forEach((fileName) => {
+    Franz.injectCSS(path.join(__dirname, fileName));
+  });
+
   let modal;
   let updates = 0;
 

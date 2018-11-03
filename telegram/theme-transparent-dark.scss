@@ -1,0 +1,234 @@
+:root {
+  --tr-dark-00: transparent;
+  --tr-dark-10: rgba(0, 0, 0, 0.1);
+  --tr-dark-20: rgba(0, 0, 0, 0.2);
+  --tr-dark-30: rgba(0, 0, 0, 0.3);
+  --tr-dark-50: rgba(0, 0, 0, 0.5);
+  --tr-light-10: rgba(255, 255, 255, 0.1);
+  --tr-light-20: rgba(255, 255, 255, 0.2);
+  --tr-light-30: rgba(255, 255, 255, 0.3);
+  --tr-light-50: rgba(255, 255, 255, 0.5);
+  --tr-light-70: rgba(255, 255, 255, 0.7);
+}
+
+html {
+  background: none !important;
+  height: 100%;
+}
+
+body.theme-transparent-dark {
+  color: #bbb !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+  height: 100%;
+
+  .modal-content {
+    color: #bbb !important;
+    background: #252525 !important;
+  }
+
+  a.tg_checkbox {
+    color: #bbb !important;
+  }
+
+  .contacts_modal_members_list a.contacts_modal_contact {
+    /*nicknames in contactlist via hamburger menu*/
+    color: #bbb;
+  }
+
+  .im_dialogs_col .nano > .nano-pane > .nano-slider {
+    /*scrollbarbutton when hover*/
+    background-color: #4d4d4d !important;
+  }
+
+  .tg_head_split {
+    background-color: #151515;
+  }
+  .im_message_mymention {
+    background: #1d1d1d;
+  }
+
+  .im_message_focus .im_message_outer_wrap {
+    background-color: #4d4d4d;
+  }
+
+  .im_message_selected .im_message_outer_wrap {
+    background: #4d4d4d;
+  }
+
+  .im_message_unread_split {
+    background: #4d4d4d;
+  }
+
+  .btn-primary {
+    background-color: #4d4d4d;
+  }
+
+  .im_history_select_active .im_message_outer_wrap:hover {
+    background: #4d4d4d;
+  }
+
+  .im_dialog_chat_from_wrap,
+  .im_dialog_message_service {
+    color: #6ac;
+  }
+
+  .tg_head_logo_dropdown .dropdown-menu > li > a {
+    color: #ddd;
+  }
+
+  .btn-primary.disabled,
+  .btn-primary[disabled] {
+    background: #4d4d4d none repeat scroll 0% 0%;
+  }
+
+  .composer_emoji_tooltip,
+  .icon-tooltip-tail {
+    /*emoji*/
+    background-color: #4d4d4d !important;
+    border-color: #5d5d5d;
+  }
+
+  /* TRANSPARENTIZE */
+  .page_wrap {
+    flex: 1;
+  }
+
+  .login_head_bg {
+    height: auto;
+    background: var(--tr-dark-20);
+  }
+
+  .login_page_wrap {
+    background: var(--tr-dark-20);
+  }
+
+  .login_form_wrap {
+    background: transparent;
+  }
+
+  .login_form_wrap h3 {
+    color: #ffffff;
+  }
+
+  .login_form_wrap p, .md-input-label, .login_footer_wrap, .countries_modal_country_name {
+    color: var(--tr-light-70);
+  }
+
+  .md-input {
+    background: none;
+    color: #fff;
+  }
+
+  .logo_footer_learn_more_link, .logo_footer_learn_more_link:active, .logo_footer_learn_more_link:focus, .logo_footer_learn_more_link:hover {
+    color: var(--tr-light-70);
+  }
+
+  a.login_head_submit_btn:hover {
+    background: var(--tr-dark-20) !important;
+  }
+
+  .tg_head_split, .md_modal_head {
+    /* APP in desktop mode */
+    /* upper bar - head */
+    background: var(--tr-dark-10);
+  }
+
+  .dropdown.open .tg_head_btn,
+  .tg_head_btn:hover {
+    background: var(--tr-dark-20) !important;
+  }
+
+  .dropdown-menu {
+    background: var(--tr-dark-50);
+  }
+
+  .im_page_wrap {
+    /*main app*/
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none;
+  }
+
+  .im_dialogs_col_wrap {
+    border-right: 1px solid var(--tr-dark-10);
+    background: var(--tr-dark-10);
+  }
+
+  .im_dialog_peer, .im_dialog_message span *, .im_history_empty, .im_history_not_selected {
+    /*peer nickname unselected*/
+    color: white !important;
+  }
+
+  a.im_dialog:hover .im_short_message_text, a.im_dialog_selected .im_short_message_text {
+    color: white !important;
+  }
+
+  a:hover {
+    background-color: rgba(40, 40, 40, 0.2) !important;
+  }
+  .form-control {
+    /*input field*/
+    background-color: var(--tr-dark-50) !important;
+    color: white !important;
+    border: none;
+    border-radius: 0;
+  }
+
+  .active a.im_dialog {
+    /*selected peer */
+    background-color: var(--tr-dark-30) !important;
+  }
+
+  .im_message_wrap {
+    max-width: initial;
+    margin: 0 5%;
+  }
+
+  .im_message_in .im_message_body,
+  .im_message_out .im_message_body {
+    padding: 4px 8px;
+    color: white;
+  }
+
+  .im_message_in .im_message_body {
+    background: var(--tr-dark-30);
+    border-left: 3px solid var(--tr-dark-50);
+  }
+
+  .im_message_out .im_message_body {
+    background: var(--tr-dark-10);
+    border-right: 3px solid var(--tr-dark-50);
+  }
+  .im_bottom_panel_wrap {
+    border-top: 1px solid var(--tr-dark-50);
+  }
+
+  .composer_rich_textarea {
+    background: var(--tr-dark-50) !important;
+    color: #fff !important;
+  }
+
+  .im_record_bg {
+    background: none;
+  }
+
+  .im_submit {
+    color: white;
+  }
+  .composer_rich_textarea {
+    box-shadow: none;
+  }
+
+  .composer_rich_textarea:focus {
+    box-shadow: 0px 1px 1px #ddd !important;
+  }
+
+  .im_page_wrap, .tg_head_split {
+    /* fix layout */
+    max-width: initial;
+    min-width: initial;
+  }
+}

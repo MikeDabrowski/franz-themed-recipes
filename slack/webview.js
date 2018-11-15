@@ -40,11 +40,12 @@ const SELECTOR_CHANNELS_UNREAD = '.p-channel_sidebar__channel--unread:not(.p-cha
 
 module.exports = (Franz) => {
   const getMessages = () => {
-    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge`).length;
-    const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages;
+    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge.c-mention_badge`);
+    const directCount = Array.from(directMessages).reduce((previous, current) => previous + parseInt(current.innerText), 0);
+    const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages.length;
 
     // set Franz badge
-    Franz.setBadge(directMessages, allMessages);
+    Franz.setBadge(directCount, allMessages);
   };
   Franz.loop(getMessages);
 

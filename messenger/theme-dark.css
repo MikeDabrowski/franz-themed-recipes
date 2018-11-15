@@ -1,0 +1,335 @@
+body.theme-dark {
+  /* convo search box, to field (new message, add people) */
+  /* I hate placeholder styling */
+  /* top bars */
+  /* main wrapper */
+  /* detail wrapper */
+  /* receipient/convo name in top bar */
+  /* thread search */
+  /* event plan banner */
+  /* XUIButton */
+  /* chat area stuff */
+  /* beginning of convo info */
+  /* message */
+  /* own message */
+  /* emoji-only messages */
+  /* reactions */
+  /* link info, platform attachment, game leaderboard */
+  /* group polling */
+  /* polling message dialog */
+  /* create event plan button */
+  /* event share attachment */
+  /* carousel arrow */
+  /* audio message */
+  /* media (e.g. GIFs) source */
+  /* delete bubble button */
+  /* composer */
+  /* make static stickers slightly more readable */
+  /*
+  ._2poz[style*="sticker"] {
+    background-color: #333;
+    border-radius: 5px;
+  }
+  */
+  /* messenger thumb up stickers */
+  /* facebook-removed messages et al */
+  /* code bubbles */
+  /* Messenger icon */
+  /* Facebook icon */
+  /* Messenger/Facebook icon - Draw dark grey border over white border */
+  /* Messenger/Facebook icons within the main wrapper */
+  /* convo info, user list */
+  /* convo name, mute label, user in user list, section headings */
+  /* convo list */
+  /* inactive convo */
+  /* unread convo */
+  /* active convo */
+  /* convo name */
+  /* group chat icon dps */
+  /* message request from */
+  /* timestamp */
+  /* convo new message */
+  /* search header */
+  /* search keyboard selection */
+  /* people list self online status */
+  /* people list section tabs */
+  /* those menus and composer dialogs though */
+  /* more stickers */
+  /* sticker and games buttons */
+  /* menu dropdown triangles */
+  /* delivery indicators */
+  /* misc icons */
+  /* messenger dialogs, very important */
+  /* chat emoji picker: selected emoji */
+  /* reactions list dialog: emoji list */
+  /* report issue dialog, even more so */
+  /* dialog head */
+  /* dialog heading, checkbox label */
+  /* dialog body, footer */
+  /* event plan dialog: input labels, responses */
+  /* image info */
+  /* what about normal facebook dialogs? */
+  /* login page */
+  /* call page */
+  /* stuff that should be grey */ }
+  body.theme-dark h2, body.theme-dark h3, body.theme-dark h4, body.theme-dark h5, body.theme-dark h6 {
+    color: #eee; }
+  body.theme-dark ._5743, body.theme-dark ._4rph ._4rpj {
+    color: white !important; }
+  body.theme-dark label, body.theme-dark ._1wse {
+    color: #aaa; }
+  body.theme-dark ._2y8y, body.theme-dark ._2y8_, body.theme-dark ._4jgt, body.theme-dark ._5iwm ._58al, body.theme-dark ._55r1 {
+    background-color: #2d2d30 !important;
+    color: white !important; }
+  body.theme-dark input._58al {
+    color: white !important; }
+  body.theme-dark input::-moz-placeholder {
+    color: #ccc !important; }
+  body.theme-dark input::-webkit-input-placeholder {
+    color: #888 !important; }
+  body.theme-dark ._36ic, body.theme-dark ._5742 {
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    /*border-bottom: none !important;*/ }
+  body.theme-dark ._4sp8 {
+    background-color: #1e1e1e !important;
+    color: #eee; }
+  body.theme-dark ._1q5- {
+    border-left-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-dark ._17w2 {
+    color: white !important; }
+  body.theme-dark ._33p7 {
+    background-color: rgba(30, 30, 30, 0.9) !important; }
+  body.theme-dark ._3nta {
+    background-color: #2d2d30 !important; }
+  body.theme-dark ._3nta:hover {
+    background-color: #222 !important; }
+  body.theme-dark ._2n3u {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-dark ._517h {
+    background-color: #222 !important;
+    color: #ccc !important; }
+  body.theme-dark ._2615:not(:hover) {
+    background-color: #333 !important; }
+  body.theme-dark ._llq, body.theme-dark ._36zg, body.theme-dark ._1n-e._36zg {
+    color: #eee !important; }
+  body.theme-dark ._29_7 ._hh7, body.theme-dark ._29_7._-5k ._hh7 {
+    background-color: #2d2d30; }
+  body.theme-dark ._29_7 ._hh7 {
+    color: #ddd; }
+  body.theme-dark ._hh7 > ._aok > ._3oh- > a {
+    color: inherit !important; }
+  body.theme-dark ._hh7._aol {
+    border-color: transparent !important; }
+  body.theme-dark ._29_7 ._hh7:active, body.theme-dark ._-5k ._hh7, body.theme-dark ._29_7 ._hh7 > span > a:hover {
+    background-color: #333; }
+  body.theme-dark ._o46._nd_ ._hh7 {
+    background-color: #004488; }
+  body.theme-dark ._o46._nd_ ._hh7:active, body.theme-dark ._o46._nd_._-5k ._hh7 {
+    background-color: #003377; }
+  body.theme-dark ._hh7._2f5r, body.theme-dark ._-5k ._hh7._2f5r {
+    background-color: transparent !important; }
+  body.theme-dark ._aou {
+    background-color: #333 !important; }
+  body.theme-dark ._4kf5 {
+    background-color: transparent !important; }
+  body.theme-dark ._5i_d, body.theme-dark ._5ssp, body.theme-dark ._4ea2 {
+    border-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-dark .__6k, body.theme-dark .__6l, body.theme-dark ._5sr2 {
+    color: #ddd !important; }
+  body.theme-dark ._4u4_ > h3, body.theme-dark ._4u4- {
+    color: #eee !important; }
+  body.theme-dark ._3b4u {
+    color: #ddd !important; }
+  body.theme-dark ._3b4h {
+    background-color: #2d2d30 !important; }
+  body.theme-dark ._1mr_, body.theme-dark ._1mq- {
+    color: #ddd !important; }
+  body.theme-dark ._3erg ._hh7 a._2q1l {
+    background-color: #2d2d30 !important;
+    border-color: #222 !important; }
+  body.theme-dark ._618l {
+    color: rgba(255, 255, 255, 0.75) !important; }
+  body.theme-dark ._618n {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-dark ._5x5z {
+    background-color: #1e1e1e !important;
+    border-color: #444 !important; }
+  body.theme-dark ._29_7 ._3czg ._2e-7 ._2e-1, body.theme-dark ._29_7 ._3czg ._2e-7 ._2e-2 {
+    background-color: #444 !important; }
+  body.theme-dark ._454y ._1mi- {
+    background-color: #2d2d30 !important; }
+  body.theme-dark ._454y ._1mj0 {
+    background-color: #666 !important; }
+  body.theme-dark ._454y ._1mj1 {
+    border-color: #666 !important; }
+  body.theme-dark ._2f5n {
+    background-color: #2d2d30 !important; }
+  body.theme-dark ._2f5n ._29ey {
+    color: #ccc !important; }
+  body.theme-dark ._hw2 ._53ij {
+    background-color: #040404 !important; }
+  body.theme-dark ._4rv3, body.theme-dark ._4_j4 .chatAttachmentShelf {
+    background-color: #1e1e1e !important;
+    border-top-color: rgba(255, 255, 255, 0.1) !important; }
+  body.theme-dark .fbNubFlyoutHeader, body.theme-dark .fbNubFlyoutBody, body.theme-dark .fbNubFlyoutFooter, body.theme-dark .fbNubFlyoutAttachments {
+    background-color: #1e1e1e; }
+  body.theme-dark ._576q {
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%); }
+  body.theme-dark ._4sp8 .uiBoxYellow {
+    background-color: #662; }
+  body.theme-dark ._wu0 {
+    background-color: #181818 !important;
+    border-color: #282828 !important; }
+  body.theme-dark ._2poo {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #0084ff; }
+  body.theme-dark ._2pop {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #929292; }
+  body.theme-dark ._2pon:after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: 50%;
+    border: 2px solid #282828; }
+  body.theme-dark ._4sp8 ._2pon:after {
+    border-color: #1e1e1e; }
+  body.theme-dark ._4_j5, body.theme-dark ._5l37 {
+    background-color: #282828 !important; }
+  body.theme-dark ._4_j5 {
+    border-left: none !important; }
+  body.theme-dark ._2jnv, body.theme-dark ._2jnx, body.theme-dark ._2jnz, body.theme-dark ._2jnx ._30e7 ._5j5f, body.theme-dark ._3szq, body.theme-dark ._364g, body.theme-dark ._1lj0 {
+    color: #ddd !important; }
+  body.theme-dark ._li ._1enh {
+    /* fix convo list hiders */
+    background-color: #1e1e1e; }
+  body.theme-dark ._1ht1 {
+    background-color: #222 !important; }
+  body.theme-dark ._1ht1._1ht3 {
+    background-color: #1c2e4a !important;
+    transition: background-color .5s; }
+  body.theme-dark ._1ht1._1ht2 {
+    background-color: #2d2d30 !important; }
+  body.theme-dark ._1ht6, body.theme-dark ._3q34 {
+    color: #eee !important; }
+  body.theme-dark ._57pl, body.theme-dark ._57pm {
+    border-color: transparent !important; }
+  body.theme-dark ._2kt ._5nxb {
+    color: #ddd !important; }
+  body.theme-dark ._1ht7.timestamp {
+    color: #999; }
+  body.theme-dark ._1ht3 ._1ht7 {
+    color: #0084cc !important; }
+  body.theme-dark ._1ht3 ._1htf {
+    color: #ddd !important; }
+  body.theme-dark ._5t4c, body.theme-dark ._225b {
+    background-color: #1e1e1e !important; }
+  body.theme-dark ._1k1p {
+    background-color: #1e1e1e !important; }
+  body.theme-dark ._1u5d {
+    background-color: transparent !important; }
+  body.theme-dark ._2lp- {
+    border-color: #0066aa !important; }
+  body.theme-dark ._48uj {
+    background-color: #0066aa !important; }
+  body.theme-dark ._53ij, body.theme-dark ._54nf, body.theme-dark ._293j, body.theme-dark ._4lh2 {
+    background-color: #333 !important; }
+  body.theme-dark ._5r8a._5r8b, body.theme-dark ._1uwz, body.theme-dark ._3rh0 {
+    background-color: #222 !important; }
+  body.theme-dark ._2i-c ._54nf ._54nh, body.theme-dark ._4lh2, body.theme-dark ._5jn1 {
+    color: #ddd !important; }
+  body.theme-dark ._4lha ._4lhc, body.theme-dark ._4lh7 {
+    color: #aaa !important; }
+  body.theme-dark ._2i-c ._54ne ._54nh, body.theme-dark ._2i-c ._54ne ._54nc, body.theme-dark ._2i-c ._54ne {
+    background-color: #0066aa !important; }
+  body.theme-dark ._5r8e, body.theme-dark ._5r86, body.theme-dark ._37wu, body.theme-dark ._37wv {
+    border-color: #222; }
+  body.theme-dark ._eb3::before {
+    background-color: #222; }
+  body.theme-dark ._3mts .uiScrollableArea.contentAfter::after,
+  body.theme-dark ._5r8l .uiScrollableArea.contentAfter::after {
+    background-image: linear-gradient(transparent, #333); }
+  body.theme-dark ._4rv6, body.theme-dark ._4ce_ {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    opacity: .6 !important; }
+  body.theme-dark ._53ik ._53io, body.theme-dark ._53il ._53io {
+    -webkit-filter: brightness(20%);
+    filter: brightness(20%); }
+  body.theme-dark ._3i_m ._9ah ._57e_ {
+    color: #1e1e1e !important; }
+  body.theme-dark ._fl3:not(._20nb), body.theme-dark ._4-0h, body.theme-dark ._57gs, body.theme-dark label > input + span::before {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%); }
+  body.theme-dark ._5iwm ._58ak::before, body.theme-dark ._23ct, body.theme-dark ._2xme,
+  body.theme-dark :not(._3no3) > ._uwa, body.theme-dark ._5jdr ._5jds,
+  body.theme-dark ._5nxe .img, body.theme-dark ._2t5t {
+    -webkit-filter: invert(1);
+    filter: invert(1); }
+  body.theme-dark ._59s7 {
+    background-color: #222;
+    color: #eee; }
+  body.theme-dark ._4-hz, body.theme-dark ._4eby, body.theme-dark ._4jgp ._4jgu, body.theme-dark ._12zw {
+    background-color: #222 !important; }
+  body.theme-dark ._374c, body.theme-dark ._4jgs, body.theme-dark ._2c9i ._19jt, body.theme-dark ._51l0 .uiInputLabel .__rm + .uiInputLabelLabel,
+  body.theme-dark ._5raa, body.theme-dark ._5rab, body.theme-dark ._4nv_ {
+    color: #ddd !important; }
+  body.theme-dark ._-lj ._4rlt {
+    background-color: #333 !important;
+    border-color: #666 !important; }
+  body.theme-dark ._koh {
+    border-bottom-color: #333 !important; }
+  body.theme-dark ._4-i0 {
+    background-color: #333 !important;
+    border-bottom-color: #2e2e2e; }
+  body.theme-dark ._4-i0 ._52c9, body.theme-dark ._5r5c ._5rq_, body.theme-dark ._uvt {
+    color: #ddd !important; }
+  body.theme-dark div._4-i2, body.theme-dark div._5a8u {
+    background-color: #222 !important;
+    color: #eee; }
+  body.theme-dark ._4t2a {
+    background-color: #222; }
+  body.theme-dark ._4-u8 {
+    background-color: transparent !important; }
+  body.theme-dark ._4xd5, body.theme-dark ._38wl, body.theme-dark ._4x79 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-dark ._2zn2 {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  body.theme-dark ._2zn6 {
+    color: rgba(255, 255, 255, 0.6) !important; }
+  body.theme-dark ._t {
+    background-color: #222 !important;
+    color: #eee; }
+  body.theme-dark .fcb {
+    color: white !important; }
+  body.theme-dark ._c24 {
+    color: #ccc !important; }
+  body.theme-dark .uiBoxGray {
+    background-color: #333 !important;
+    border-color: #2e2e2e; }
+  body.theme-dark #captcha .captcha_refresh {
+    color: lightgrey !important; }
+  body.theme-dark ._3v_p, body.theme-dark ._3v_o {
+    background-color: #222 !important; }
+  body.theme-dark ._3v_p ._5hy4, body.theme-dark ._3v_o ._5hy4 {
+    color: #eee !important; }
+  body.theme-dark ._3v_p ._43di, body.theme-dark ._3v_o ._43di, body.theme-dark ._3v_p ._3403, body.theme-dark ._3v_o ._3403 {
+    color: #ddd !important; }
+  body.theme-dark ._3v_p ._210j ._43dj .uiInputLabelLabel, body.theme-dark ._59h8, body.theme-dark ._3v_p ._59h7 ._5hy9 {
+    color: #aaa !important; }
+  body.theme-dark ._3v_p ._3v_w ._2m_r, body.theme-dark ._3v_p ._5s4n ._2m_r {
+    background-color: #0066aa !important; }
+  body.theme-dark ._17cj, body.theme-dark ._17cj ._3jne, body.theme-dark ._38jq {
+    background-color: #1e1e1e !important; }
+  body.theme-dark ._17cj ._3jnu, body.theme-dark ._17cj ._3jnv, body.theme-dark ._fjq {
+    color: rgba(255, 255, 255, 0.4) !important; }
+  body.theme-dark ._17cj ._4j_k, body.theme-dark ._fjp {
+    color: #eee !important; }
+  body.theme-dark ._ih3, body.theme-dark ._3tl0, body.theme-dark ._3tl1 ._10w4, body.theme-dark ._497p, body.theme-dark ._3x6v, body.theme-dark ._2v6o, body.theme-dark ._3tky, body.theme-dark ._5rh4, body.theme-dark ._5qsj, body.theme-dark ._jf4 ._jf3, body.theme-dark ._5i_d .__6m, body.theme-dark ._2y8z,
+  body.theme-dark ._4g0h, body.theme-dark ._3xcx, body.theme-dark ._225b, body.theme-dark ._3q35, body.theme-dark ._2r2v, body.theme-dark ._2n1t, body.theme-dark ._1n-e, body.theme-dark ._3eus, body.theme-dark ._2wy4, body.theme-dark ._1u5d ._1u5k, body.theme-dark ._3ggt,
+  body.theme-dark ._17cj ._2ze8, body.theme-dark ._17cj ._cen, body.theme-dark ._5sr7, body.theme-dark ._4nw0 {
+    color: rgba(255, 255, 255, 0.6) !important; }

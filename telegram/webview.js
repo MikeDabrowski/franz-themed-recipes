@@ -4,6 +4,26 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = Franz => {
+
+  window.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.key === 'k') {
+      const inputSearch = document.querySelector('.im_dialogs_search>input');
+      if (inputSearch) {
+        inputSearch.focus();
+      }
+    }
+    if (e.altKey && /\d/.test(e.key)) {
+      const chats = document.querySelectorAll('.im_dialog');
+      const selectedChat = chats[e.key - 1];
+      if (chats.length && selectedChat) {
+        let clickEvent = document.createEvent('MouseEvents');
+        clickEvent.initEvent('mousedown', true, true);
+        selectedChat.dispatchEvent(clickEvent);
+      }
+    }
+  });
+
+
   const getMessages = function getMessages() {
     let count = 0;
     const searchElement = document.querySelector('.im_dialogs_search_field');
@@ -21,7 +41,8 @@ module.exports = Franz => {
     Franz.setBadge(count);
   };
 
-  const cssFiles = fs.readdirSync(__dirname).filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')));
+  const cssFiles = fs.readdirSync(__dirname)
+    .filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')));
   cssFiles.forEach((fileName) => {
     Franz.injectCSS(path.join(__dirname, fileName));
   });

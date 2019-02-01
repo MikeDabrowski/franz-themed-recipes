@@ -91,6 +91,7 @@ body.theme-transparent-dark {
   /* top bars */
   /* app name (messenger) */
   /* contact name (convo name)*/
+  /* user writes message */
   /* timestamp between msgs */ }
   body.theme-transparent-dark {
     background: rgba(0, 0, 0, 0.001) !important; }
@@ -374,6 +375,8 @@ body.theme-transparent-dark {
   body.theme-transparent-dark ._36ic ._1tqi {
     color: white; }
   body.theme-transparent-dark ._673w {
+    background: var(--tr-dark-20); }
+  body.theme-transparent-dark ._4gd0 {
     background: var(--tr-dark-20); }
   body.theme-transparent-dark time {
     border-radius: 16px;

@@ -5,6 +5,7 @@ html {
 body.theme-transparent-dark {
   background: transparent !important;
 
+  .c-message--ephemeral, .c-message--sli_highlight_negative,
   .client_channels_list_container {
     background: rgba(0, 0, 0, 0.3) !important;
   }
@@ -14,6 +15,7 @@ body.theme-transparent-dark {
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important;
   }
+  .c-message_attachment__pretext,
   .c-message__body, .c-message_attachment__body {
     color: white !important;
   }

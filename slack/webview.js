@@ -1,18 +1,18 @@
-'use strict';
+"use strict";
 
+const _electron = require('electron');
 const path = require('path');
 const fs = require('fs');
-const { ipcRenderer } = require('electron');
 
 const getTeamIcon = function getTeamIcon(count = 0) {
   let countTeamIconCheck = count;
   let bgUrl = null;
-
   const teamMenu = document.querySelector('#team_menu');
+
   if (teamMenu) {
     teamMenu.click();
-
     const icon = document.querySelector('.team_icon');
+
     if (icon) {
       bgUrl = window.getComputedStyle(icon, null).getPropertyValue('background-image');
       bgUrl = /^url\((['"]?)(.*)\1\)$/.exec(bgUrl);
@@ -28,7 +28,7 @@ const getTeamIcon = function getTeamIcon(count = 0) {
   countTeamIconCheck += 1;
 
   if (bgUrl) {
-    ipcRenderer.sendToHost('avatar', bgUrl);
+    _electron.ipcRenderer.sendToHost('avatar', bgUrl);
   } else if (countTeamIconCheck <= 5) {
     setTimeout(() => {
       getTeamIcon(countTeamIconCheck + 1);
@@ -38,23 +38,20 @@ const getTeamIcon = function getTeamIcon(count = 0) {
 
 const SELECTOR_CHANNELS_UNREAD = '.p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted)';
 
-module.exports = (Franz) => {
+module.exports = Franz => {
+  const cssFiles = fs.readdirSync(__dirname)
+      .filter((fileName) => (fileName.endsWith('.css')))
+      .map((fileName) => path.join(__dirname, fileName));
+  Franz.injectCSS(...cssFiles);
+
   const getMessages = () => {
-    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge.c-mention_badge`);
-    const directCount = Array.from(directMessages).reduce((previous, current) => previous + parseInt(current.innerText), 0);
-    const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages.length;
-
-    // set Franz badge
-    Franz.setBadge(directCount, allMessages);
+    const directMessages = document.querySelectorAll(`${SELECTOR_CHANNELS_UNREAD} .p-channel_sidebar__badge`).length;
+    const allMessages = document.querySelectorAll(SELECTOR_CHANNELS_UNREAD).length - directMessages;
+    Franz.setBadge(directMessages, allMessages);
   };
-  Franz.loop(getMessages);
 
+  Franz.loop(getMessages);
   setTimeout(() => {
     getTeamIcon();
   }, 4000);
-
-  const cssFiles = fs.readdirSync(__dirname)
-    .filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')))
-    .map((fileName) => path.join(__dirname, fileName));
-  Franz.injectCSS(...cssFiles);
 };

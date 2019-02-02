@@ -377,7 +377,7 @@ body.theme-transparent-dark {
   body.theme-transparent-dark ._673w {
     background: var(--tr-dark-20); }
   body.theme-transparent-dark ._4gd0 {
-    background: var(--tr-dark-20); }
+    background: transparent !important; }
   body.theme-transparent-dark time {
     border-radius: 16px;
     background: var(--tr-dark-50);

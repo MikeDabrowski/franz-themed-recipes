@@ -1,7 +1,7 @@
 {
   "id": "messenger",
   "name": "Messenger",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Themed Facebook Messenger",
   "main": "index.js",
   "author": "Mike Dabrowski <mike2060@gmail.com>",

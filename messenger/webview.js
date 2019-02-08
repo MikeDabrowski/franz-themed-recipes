@@ -3,6 +3,10 @@ const path = require('path');
 const fs = require('fs');
 
 module.exports = Franz => {
+  const cssFiles = fs.readdirSync(__dirname)
+    .filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')))
+    .map((fileName) => path.join(__dirname, fileName));
+  Franz.injectCSS(...cssFiles);
 
   const getMessages = function getMessages() {
     let count = document.querySelectorAll('._5fx8:not(._569x),._1ht3:not(._569x)').length;
@@ -16,10 +20,10 @@ module.exports = Franz => {
   };
 
   Franz.loop(getMessages);
-  localStorage.setItem('_cs_desktopNotifsEnabled', JSON.stringify({
-    __t: new Date().getTime(),
-    __v: true
-  }));
+    localStorage.setItem('_cs_desktopNotifsEnabled', JSON.stringify({
+        __t: new Date().getTime(),
+        __v: true
+    }));
 
   if (typeof Franz.onNotify === 'function') {
     Franz.onNotify(notification => {
@@ -34,9 +38,4 @@ module.exports = Franz => {
       return notification;
     });
   }
-
-  const cssFiles = fs.readdirSync(__dirname)
-      .filter((fileName) => (fileName.startsWith('theme-') && fileName.endsWith('.css')))
-      .map((fileName) => path.join(__dirname, fileName));
-  Franz.injectCSS(...cssFiles);
 };

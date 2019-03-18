@@ -1,0 +1,15 @@
+:root {
+  --tr-dark-00: transparent;
+  --tr-dark-10: rgba(0, 0, 0, 0.1);
+  --tr-dark-20: rgba(0, 0, 0, 0.2);
+  --tr-dark-30: rgba(0, 0, 0, 0.3);
+  --tr-dark-50: rgba(0, 0, 0, 0.5);
+  --tr-light-10: rgba(255, 255, 255, 0.1);
+  --tr-light-20: rgba(255, 255, 255, 0.2);
+  --tr-light-30: rgba(255, 255, 255, 0.3);
+  --tr-light-50: rgba(255, 255, 255, 0.5);
+  --tr-light-70: rgba(255, 255, 255, 0.7); }
+
+html {
+  background: none !important;
+  height: 100%; }

@@ -1,0 +1,14 @@
+{
+  "id": "spotify",
+  "name": "Spotify",
+  "version": "1.0.0",
+  "description": "Themed Spotify",
+  "main": "index.js",
+  "author": "Mike Dabrowski <mike2060@gmail.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://open.spotify.com/collection/playlists",
+    "hasDirectMessages": true,
+    "hasNotificationSound": true
+  }
+}

@@ -3,6 +3,8 @@
 ### Pull requests are accepted, it's simply css modifications, you can do this!
 
 ### Installation:
+Themed recipes are intended for my fork of Franz. You can get it [here](https://github.com/MikeDabrowski/franz). It will allow you to change theme in settings.
+
 ##### If you have git installed
 
 1. Close Franz
@@ -58,3 +60,9 @@ body.theme-pink header nav {color: white;}
 body.theme-pink footer {background: deeppink;}
 ```
 See existing themes for reference.
+
+### Troubleshooting
+
+#### Cannot add services
+First make sure you use my fork of Franz and both are up to date. Original Franz doesn't allow adding recipes if it detects '.git' folder in recipes directory. This folder keeps git stuff inside and in my fork is simply ignored.
+If you are sure this is not the case please create issue and post screenshots of Franz's developer console (View -> Toggle Dev Tools).

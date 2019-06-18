@@ -9,6 +9,14 @@ document.styleSheets[0].addRule('.aKB', 'display:none;', 1);
 module.exports = Franz => {
   const getMessages = function getMessages() {
     let count = 0;
+    let faviconCount = 0;
+    const faviconElement = document.head.querySelector('link[rel="icon"]');
+    if (faviconElement) {
+      let countStr = faviconElement.href.match(/\/(\d)\.png/)[1];
+      if (countStr) {
+        faviconCount = parseInt(countStr, 10);
+      }
+    }
 
     const valueFromTabs = [...document.querySelectorAll('.aRz.J-KU')]
       .map((f) => f.querySelector('.aDG'))
@@ -36,6 +44,10 @@ module.exports = Franz => {
 
     if (!count && valueFromTabs) {
       count = valueFromTabs;
+    }
+
+    if (faviconCount) {
+      count = faviconCount;
     }
 
     // Just in case we don't end up with a number, set it back to zero (parseInt can return NaN)

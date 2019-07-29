@@ -6,7 +6,7 @@ body.theme-transparent-dark {
   body.theme-transparent-dark .c-message--ephemeral, body.theme-transparent-dark .c-message--sli_highlight_negative,
   body.theme-transparent-dark .client_channels_list_container {
     background: rgba(0, 0, 0, 0.3) !important; }
-  body.theme-transparent-dark .p-client .p-channel_sidebar, body.theme-transparent-dark .channel_header, body.theme-transparent-dark client_body::before, body.theme-transparent-dark div#footer, body.theme-transparent-dark body:not(.loading) #team_menu.active, body.theme-transparent-dark body:not(.loading) #team_menu:hover {
+  body.theme-transparent-dark .p-client, body.theme-transparent-dark .p-channel_sidebar, body.theme-transparent-dark .channel_header, body.theme-transparent-dark client_body::before, body.theme-transparent-dark div#footer, body.theme-transparent-dark body:not(.loading) #team_menu.active, body.theme-transparent-dark body:not(.loading) #team_menu:hover {
     background: transparent !important; }
   body.theme-transparent-dark .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, body.theme-transparent-dark .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important; }

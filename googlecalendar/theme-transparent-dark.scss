@@ -1,8 +1,8 @@
 body.theme-transparent-dark {
-  &, .aAt, .aAU, #loading, .RWvJ9d>span, .RWvJ9d>span::before, .v83gc {
+  &, .aAt, .aAU, #loading, .RWvJ9d>span, .RWvJ9d>span::before, .v83gc, .tNDBE {
     background: transparent !important;
   }
-  .NI2kfb, .KSxb4d.pCcXPem, .MmhHI.N4XV7d,.pCoqfc, .MANBAf {
+  .KSxb4d.pCcXPem, .MmhHI.N4XV7d,.pCoqfc, .MANBAf, .YK7obe .yzYBvd, .uQ1ixe .snByac, label.d6wfac .NI2kfb {
     color: white !important;
   }
   header, header>div {
@@ -20,6 +20,11 @@ body.theme-transparent-dark {
     background: rgba(255, 255, 255, .2);
   }
   .VKy0Ic {
-    color: black;
+    color: #3c4043;
+  }
+  .g3dbUc.smECzc, .g3dbUc.KCIIIb {
+    background-color: #f1f3f4;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
   }
 }

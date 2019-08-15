@@ -25,6 +25,8 @@ body.theme-transparent-dark {
   body.theme-transparent-dark .modal-content {
     color: #bbb !important;
     background: #252525 !important; }
+  body.theme-transparent-dark a {
+    color: #00fff7; }
   body.theme-transparent-dark a.tg_checkbox {
     color: #bbb !important; }
   body.theme-transparent-dark .contacts_modal_members_list a.contacts_modal_contact {

@@ -22,6 +22,9 @@ body.theme-transparent-dark {
   .c-message--light .c-message__sender .c-message__sender_link {
     color: rgba(255, 255, 255, 0.7) !important;
   }
+  code {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+  }
   pre, .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
     background: rgba(255, 255, 255, 0.3) !important;
   }
@@ -33,6 +36,7 @@ body.theme-transparent-dark {
     filter: none !important;
     opacity: 1 !important;
   }
+  .p-context_block__text,
   .c-virtual_list__item a,
   .c-virtual_list__item a:link,
   .c-virtual_list__item a:visited {
@@ -57,11 +61,12 @@ body.theme-transparent-dark {
     height: 60px !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2)
   }
-  button#im_title, #msg_input, #msg_input p, div#msg_input p {
+  button#im_title, #msg_input, #msg_input p, div#msg_input p, .p-section_block_text_content {
     color: white !important;
   }
   #col_messages, #footer, .channel_header,
   #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     box-shadow: none !important;
   }
+
 }

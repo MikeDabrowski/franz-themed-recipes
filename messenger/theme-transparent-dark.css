@@ -26,6 +26,7 @@ body.theme-transparent-dark {
   /* own message */
   /* emoji-only messages */
   /* reactions */
+  /* input area */
   /* link info, platform attachment, game leaderboard */
   /* group polling */
   /* polling message dialog */
@@ -93,6 +94,8 @@ body.theme-transparent-dark {
   /* contact name (convo name)*/
   /* user writes message */
   /* timestamp between msgs */ }
+  body.theme-transparent-dark ._7mkk._7t1o._7t0j {
+    display: none; }
   body.theme-transparent-dark {
     background: rgba(0, 0, 0, 0.001) !important; }
   body.theme-transparent-dark h2, body.theme-transparent-dark h3, body.theme-transparent-dark h4, body.theme-transparent-dark h5, body.theme-transparent-dark h6 {
@@ -144,7 +147,7 @@ body.theme-transparent-dark {
     background-color: transparent !important; }
   body.theme-transparent-dark ._aou {
     background-color: #333 !important; }
-  body.theme-transparent-dark ._4kf5 {
+  body.theme-transparent-dark ._4kf5, body.theme-transparent-dark ._5irm._7mkm {
     background-color: transparent !important; }
   body.theme-transparent-dark ._5i_d, body.theme-transparent-dark ._5ssp, body.theme-transparent-dark ._4ea2 {
     border-color: rgba(255, 255, 255, 0.1) !important; }

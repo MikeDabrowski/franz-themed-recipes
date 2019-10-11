@@ -16,6 +16,9 @@ html {
 }
 
 body.theme-transparent-dark {
+  ._7mkk._7t1o._7t0j {
+    display: none;
+  }
   & {
     background: rgba(0, 0, 0, 0.001) !important;
   }
@@ -106,7 +109,8 @@ body.theme-transparent-dark {
   ._aou {
     background-color: #333 !important;
   }
-  ._4kf5 {
+  /* input area */
+  ._4kf5, ._5irm._7mkm {
     background-color: transparent !important;
   }
   /* link info, platform attachment, game leaderboard */

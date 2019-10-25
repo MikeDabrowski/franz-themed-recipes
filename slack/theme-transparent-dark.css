@@ -52,13 +52,13 @@ body.theme-transparent-dark {
   body.theme-transparent-dark #col_messages, body.theme-transparent-dark #footer, body.theme-transparent-dark .channel_header,
   body.theme-transparent-dark #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     box-shadow: none !important; }
-  body.theme-transparent-dark .c-message_kit__file__meta__text {
+  body.theme-transparent-dark .c-message_kit__file__meta__text, body.theme-transparent-dark .c-timestamp__label {
     color: rgba(255, 255, 255, 0.6); }
-  body.theme-transparent-dark .p-message_input .p-message_input_field {
+  body.theme-transparent-dark .p-message_input .p-message_input_field, body.theme-transparent-dark .p-message_input .c-message__editor__input, body.theme-transparent-dark .c-message__editor__input_container .p-message_input_field, body.theme-transparent-dark .c-message__editor__input_container .c-message__editor__input {
     background: transparent !important;
     color: white !important;
     border-color: white !important; }
-    body.theme-transparent-dark .p-message_input .p-message_input_field .ql-composer-sticky {
+    body.theme-transparent-dark .p-message_input .p-message_input_field .ql-composer-sticky, body.theme-transparent-dark .p-message_input .c-message__editor__input .ql-composer-sticky, body.theme-transparent-dark .c-message__editor__input_container .p-message_input_field .ql-composer-sticky, body.theme-transparent-dark .c-message__editor__input_container .c-message__editor__input .ql-composer-sticky {
       background: transparent !important; }
-  body.theme-transparent-dark .p-message_input .ql-placeholder, body.theme-transparent-dark .p-message_input button {
+  body.theme-transparent-dark .p-message_input .ql-placeholder, body.theme-transparent-dark .p-message_input button, body.theme-transparent-dark .c-message__editor__input_container .ql-placeholder, body.theme-transparent-dark .c-message__editor__input_container button {
     color: white !important; }

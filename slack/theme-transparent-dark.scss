@@ -72,11 +72,11 @@ body.theme-transparent-dark {
     box-shadow: none !important;
   }
 
-  .c-message_kit__file__meta__text {
+  .c-message_kit__file__meta__text, .c-timestamp__label{
     color: rgba(255,255,255,.6);
   }
-  .p-message_input {
-    .p-message_input_field {
+  .p-message_input, .c-message__editor__input_container {
+    .p-message_input_field, .c-message__editor__input {
       background: transparent !important;
       color: white !important;
       border-color: white !important;

@@ -10,6 +10,8 @@ body.theme-transparent-dark {
     background: transparent !important; }
   body.theme-transparent-dark .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, body.theme-transparent-dark .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important; }
+  body.theme-transparent-dark .c-virtual_list__item,
+  body.theme-transparent-dark .c-message.c-message--light.c-message--adjacent,
   body.theme-transparent-dark .c-message_attachment__pretext,
   body.theme-transparent-dark .c-message_kit__text,
   body.theme-transparent-dark .c-message__body, body.theme-transparent-dark .c-message_attachment__body {
@@ -50,3 +52,13 @@ body.theme-transparent-dark {
   body.theme-transparent-dark #col_messages, body.theme-transparent-dark #footer, body.theme-transparent-dark .channel_header,
   body.theme-transparent-dark #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
     box-shadow: none !important; }
+  body.theme-transparent-dark .c-message_kit__file__meta__text {
+    color: rgba(255, 255, 255, 0.6); }
+  body.theme-transparent-dark .p-message_input .p-message_input_field {
+    background: transparent !important;
+    color: white !important;
+    border-color: white !important; }
+    body.theme-transparent-dark .p-message_input .p-message_input_field .ql-composer-sticky {
+      background: transparent !important; }
+  body.theme-transparent-dark .p-message_input .ql-placeholder, body.theme-transparent-dark .p-message_input button {
+    color: white !important; }

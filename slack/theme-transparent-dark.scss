@@ -15,6 +15,8 @@ body.theme-transparent-dark {
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important;
   }
+  .c-virtual_list__item,
+  .c-message.c-message--light.c-message--adjacent,
   .c-message_attachment__pretext,
   .c-message_kit__text,
   .c-message__body, .c-message_attachment__body {
@@ -70,4 +72,21 @@ body.theme-transparent-dark {
     box-shadow: none !important;
   }
 
+  .c-message_kit__file__meta__text {
+    color: rgba(255,255,255,.6);
+  }
+  .p-message_input {
+    .p-message_input_field {
+      background: transparent !important;
+      color: white !important;
+      border-color: white !important;
+
+      .ql-composer-sticky {
+        background: transparent !important;
+      }
+    }
+    .ql-placeholder, button {
+      color: white !important;
+    }
+  }
 }

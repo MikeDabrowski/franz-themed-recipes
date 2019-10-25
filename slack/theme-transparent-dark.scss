@@ -9,6 +9,8 @@ body.theme-transparent-dark {
   .client_channels_list_container {
     background: rgba(0, 0, 0, 0.3) !important;
   }
+  .c-message_kit__background,
+  .p-unreads_view__header,
   .p-client, .p-channel_sidebar, .channel_header, client_body::before, div#footer, body:not(.loading) #team_menu.active, body:not(.loading) #team_menu:hover {
     background: transparent !important;
   }

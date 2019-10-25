@@ -3,7 +3,16 @@
 const fs = require('fs');
 const path = require('path');
 
+function hideChannels() {
+  const regs = [/:peach:/, /crazy about/, /@pretty6k/, /instagram/, /(Д|л|Ф|и|п)/];
+  [...document.querySelectorAll('.nav.nav-pills.nav-stacked > li')]
+    .filter(el => !el.classList.contains('hide'))
+    .filter(el => regs.some(reg => reg.test(el.querySelector('.im_dialog_peer span').textContent.toLowerCase())))
+    .forEach(el => el.classList.add('hide'));
+}
+
 module.exports = Franz => {
+  hideChannels();
 
   window.addEventListener('keydown', (e) => {
     if (e.ctrlKey && e.key === 'k') {
@@ -25,6 +34,7 @@ module.exports = Franz => {
 
 
   const getMessages = function getMessages() {
+    hideChannels();
     let count = 0;
     const searchElement = document.querySelector('.im_dialogs_search_field');
     if (searchElement && searchElement.value === '') {

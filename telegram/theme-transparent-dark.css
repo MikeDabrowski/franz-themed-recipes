@@ -14,6 +14,9 @@ html {
   background: none !important;
   height: 100%; }
 
+.hide {
+  display: none; }
+
 body.theme-transparent-dark {
   color: #bbb !important;
   display: flex;

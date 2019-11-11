@@ -14,6 +14,8 @@ body.theme-transparent-dark {
   .p-client, .p-channel_sidebar, .channel_header, client_body::before, div#footer, body:not(.loading) #team_menu.active, body:not(.loading) #team_menu:hover {
     background: transparent !important;
   }
+  .p-client_container_placeholder,
+  .p-workspace__top_nav > .p-classic_nav > .p-classic_nav__team_header,
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important;
   }
@@ -21,11 +23,31 @@ body.theme-transparent-dark {
   .c-message.c-message--light.c-message--adjacent,
   .c-message_attachment__pretext,
   .c-message_kit__text,
-  .c-message__body, .c-message_attachment__body {
+  .c-message__body, .c-message_attachment__body,
+  .c-scrollbar__hider,
+  .c-unified_member__display-name--large, .c-unified_member__title--large,
+  .p-channel_details__shared_files__empty,
+  .p-flexpane_header, .p-flexpane_header button,
+  .p-classic_nav__model__button:not(:hover),
+  .p-classic_nav__model__title__name,
+  .p-classic_nav__model__title__info
+  {
     color: white !important;
+  }
+  /* search */
+  .p-classic_nav__right_header.p-classic_nav__right_header--context_pane.p-classic_nav__right_header--whats_new_showing {
+    button, .p-classic_nav__right__search__icon, .p-classic_nav__right__search__placeholder {
+      color: white;
+    }
+    .p-classic_nav__right__search {
+      border-color: white;
+    }
   }
   .c-message--light .c-message__sender .c-message__sender_link {
     color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .p-flexpane_header {
+    background: unset !important;
   }
   code {
     background-color: rgba(255, 255, 255, 0.7) !important;

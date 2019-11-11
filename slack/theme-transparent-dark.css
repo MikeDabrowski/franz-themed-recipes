@@ -2,7 +2,8 @@ html {
   background: none !important; }
 
 body.theme-transparent-dark {
-  background: transparent !important; }
+  background: transparent !important;
+  /* search */ }
   body.theme-transparent-dark .c-message--ephemeral, body.theme-transparent-dark .c-message--sli_highlight_negative,
   body.theme-transparent-dark .client_channels_list_container {
     background: rgba(0, 0, 0, 0.3) !important; }
@@ -10,16 +11,31 @@ body.theme-transparent-dark {
   body.theme-transparent-dark .p-unreads_view__header,
   body.theme-transparent-dark .p-client, body.theme-transparent-dark .p-channel_sidebar, body.theme-transparent-dark .channel_header, body.theme-transparent-dark client_body::before, body.theme-transparent-dark div#footer, body.theme-transparent-dark body:not(.loading) #team_menu.active, body.theme-transparent-dark body:not(.loading) #team_menu:hover {
     background: transparent !important; }
+  body.theme-transparent-dark .p-client_container_placeholder,
+  body.theme-transparent-dark .p-workspace__top_nav > .p-classic_nav > .p-classic_nav__team_header,
   body.theme-transparent-dark .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, body.theme-transparent-dark .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important; }
   body.theme-transparent-dark .c-virtual_list__item,
   body.theme-transparent-dark .c-message.c-message--light.c-message--adjacent,
   body.theme-transparent-dark .c-message_attachment__pretext,
   body.theme-transparent-dark .c-message_kit__text,
-  body.theme-transparent-dark .c-message__body, body.theme-transparent-dark .c-message_attachment__body {
+  body.theme-transparent-dark .c-message__body, body.theme-transparent-dark .c-message_attachment__body,
+  body.theme-transparent-dark .c-scrollbar__hider,
+  body.theme-transparent-dark .c-unified_member__display-name--large, body.theme-transparent-dark .c-unified_member__title--large,
+  body.theme-transparent-dark .p-channel_details__shared_files__empty,
+  body.theme-transparent-dark .p-flexpane_header, body.theme-transparent-dark .p-flexpane_header button,
+  body.theme-transparent-dark .p-classic_nav__model__button:not(:hover),
+  body.theme-transparent-dark .p-classic_nav__model__title__name,
+  body.theme-transparent-dark .p-classic_nav__model__title__info {
     color: white !important; }
+  body.theme-transparent-dark .p-classic_nav__right_header.p-classic_nav__right_header--context_pane.p-classic_nav__right_header--whats_new_showing button, body.theme-transparent-dark .p-classic_nav__right_header.p-classic_nav__right_header--context_pane.p-classic_nav__right_header--whats_new_showing .p-classic_nav__right__search__icon, body.theme-transparent-dark .p-classic_nav__right_header.p-classic_nav__right_header--context_pane.p-classic_nav__right_header--whats_new_showing .p-classic_nav__right__search__placeholder {
+    color: white; }
+  body.theme-transparent-dark .p-classic_nav__right_header.p-classic_nav__right_header--context_pane.p-classic_nav__right_header--whats_new_showing .p-classic_nav__right__search {
+    border-color: white; }
   body.theme-transparent-dark .c-message--light .c-message__sender .c-message__sender_link {
     color: rgba(255, 255, 255, 0.7) !important; }
+  body.theme-transparent-dark .p-flexpane_header {
+    background: unset !important; }
   body.theme-transparent-dark code {
     background-color: rgba(255, 255, 255, 0.7) !important; }
   body.theme-transparent-dark pre, body.theme-transparent-dark .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), body.theme-transparent-dark .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), body.theme-transparent-dark .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {

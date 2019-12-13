@@ -1,8 +1,10 @@
 "use strict";
-
-var _electron = require("electron");
-const path = require('path');
 const fs = require('fs');
+var _electron = require("electron");
+
+var _path = _interopRequireDefault(require("path"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const getTeamIcon = function getTeamIcon(count = 0) {
   let countTeamIconCheck = count;

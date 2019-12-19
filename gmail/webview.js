@@ -1,5 +1,5 @@
 "use strict";
-
+const fs = require('fs');
 var _path = _interopRequireDefault(require("path"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -23,6 +23,9 @@ module.exports = Franz => {
     Franz.setBadge(count);
   };
 
-  Franz.injectCSS(_path.default.join(__dirname, 'service.css'));
+  const cssFiles = fs.readdirSync(__dirname)
+    .filter((fileName) => (fileName.endsWith('.css')))
+    .map((fileName) => _path.default.join(__dirname, fileName));
+  Franz.injectCSS(...cssFiles);
   Franz.loop(getMessages);
 };

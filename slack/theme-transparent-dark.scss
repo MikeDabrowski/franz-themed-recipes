@@ -4,6 +4,7 @@ html {
 
 body.theme-transparent-dark {
   background: transparent !important;
+  --sk_primary_background: transparent;
 
   .c-message--ephemeral, .c-message--sli_highlight_negative,
   .client_channels_list_container {
@@ -11,14 +12,19 @@ body.theme-transparent-dark {
   }
   .c-message_kit__background,
   .p-unreads_view__header,
-  .p-client, .p-channel_sidebar, .channel_header, client_body::before, div#footer, body:not(.loading) #team_menu.active, body:not(.loading) #team_menu:hover {
-    background: transparent !important;
-  }
+  .p-client,
+  .p-channel_sidebar,
+  .channel_header,
+  client_body::before,
+  div#footer,
+  &:not(.loading) #team_menu.active,
+  &:not(.loading) #team_menu:hover,
   .p-client_container_placeholder,
   .p-workspace__top_nav > .p-classic_nav > .p-classic_nav__team_header,
   .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
     background: transparent !important;
   }
+
   .c-virtual_list__item,
   .c-message.c-message--light.c-message--adjacent,
   .c-message_attachment__pretext,

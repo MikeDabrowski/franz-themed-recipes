@@ -3,14 +3,20 @@ html {
 
 body.theme-transparent-dark {
   background: transparent !important;
+  --sk_primary_background: transparent;
   /* search */ }
   body.theme-transparent-dark .c-message--ephemeral, body.theme-transparent-dark .c-message--sli_highlight_negative,
   body.theme-transparent-dark .client_channels_list_container {
     background: rgba(0, 0, 0, 0.3) !important; }
   body.theme-transparent-dark .c-message_kit__background,
   body.theme-transparent-dark .p-unreads_view__header,
-  body.theme-transparent-dark .p-client, body.theme-transparent-dark .p-channel_sidebar, body.theme-transparent-dark .channel_header, body.theme-transparent-dark client_body::before, body.theme-transparent-dark div#footer, body.theme-transparent-dark body:not(.loading) #team_menu.active, body.theme-transparent-dark body:not(.loading) #team_menu:hover {
-    background: transparent !important; }
+  body.theme-transparent-dark .p-client,
+  body.theme-transparent-dark .p-channel_sidebar,
+  body.theme-transparent-dark .channel_header,
+  body.theme-transparent-dark client_body::before,
+  body.theme-transparent-dark div#footer,
+  body.theme-transparent-dark:not(.loading) #team_menu.active,
+  body.theme-transparent-dark:not(.loading) #team_menu:hover,
   body.theme-transparent-dark .p-client_container_placeholder,
   body.theme-transparent-dark .p-workspace__top_nav > .p-classic_nav > .p-classic_nav__team_header,
   body.theme-transparent-dark .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider, body.theme-transparent-dark .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {

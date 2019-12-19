@@ -2,9 +2,7 @@
 const fs = require('fs');
 var _electron = require("electron");
 
-var _path = _interopRequireDefault(require("path"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var path = require("path");
 
 const getTeamIcon = function getTeamIcon(count = 0) {
   let countTeamIconCheck = count;
@@ -46,9 +44,11 @@ module.exports = Franz => {
     Franz.setBadge(directMessages, allMessages);
   };
   Franz.loop(getMessages);
+
   setTimeout(() => {
     getTeamIcon();
   }, 4000);
+
   const cssFiles = fs.readdirSync(__dirname)
       .filter((fileName) => (fileName.endsWith('.css')))
       .map((fileName) => path.join(__dirname, fileName));
